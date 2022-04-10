@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=OpenSans" rel="stylesheet">
+    <link rel="stylesheet" href="query_style.css">
+    <title>Query</title> 
+</head>
+
+<body>
+  <section class="mainsec">
+  <header>
+    <div>
+      <img class="logo" src="logo.png"  alt="logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="../Main Page/Main.html">Home</a></li>
+        <li><a href="../Query Form/Query.html">Queries</a></li>
+        <li><a href="../Product/productHtml.html">Collections</a></li>
+        <li><a href="../New Arrivals page/newArrivals.html">New Arrivals</a></li>
+        <li><a href="../Quiz/index.html">Quiz</a></li>
+        <li><a href="../Additional Content/SportFacts.html">Sport Facts</a></li>
+        <li><a href="../Sitemap page/Sitemap.html">Sitemap</a></li>
+        <li><a href="../AboutUs/aboutus.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  </section>
+
+
+  <div class="query_banner"> 
+    <h1 id="query-heading" >Enter Your Queries</h1>   <!-- Query Heading -->
+  </div>
+
+  <div class="query-form-container">
+
+    <form id="query-form" method="post">
+      <ul>
+
+        <li>
+          <label for="name">Name</label>                       <!-- Name Input -->
+          <input type="text" id="name" name="user_name" />
+        </li>
+
+
+        <li>
+          <label for="mail">E-mail</label>                        <!-- Email Input -->
+          <input type="email" id="mail" name="user_email" />
+        </li>
+
+
+        <li>
+          <label for="query-subject">Choose the subject of your query</label>     <!-- Subject Selection -->
+          <select id="query-subject" name="query-subject">
+            <option value="General">General</option>
+            <option value="Deliveries" >Deliveries</option>
+            <option value="Quality">Quality</option>
+          </select>
+        </li>
+
+
+        <li>
+          <label for="query-text">Query</label>                         <!-- Query Message Input -->
+          <textarea id="query-text" name="query-text"></textarea>
+        </li>
+        
+
+        <li class="button">                                               <!-- View Button -->
+          <button id="view-query-btn" type="button">View</button>
+        </li>
+        
+      </ul>
+    </form>
+
+
+<!-- -------------------------- Query Data ------------------------------------->
+
+
+    <div id="query-data" class="query-data">
+      <div class="query-data-item">
+        <h2>Name: </h2>                                                                       <!-- Query Data: Name -->
+        <h2 id="query-data-name" class="query-data-item-detail">Kulith Vinwara</h2>
+      </div>
+
+      <div class="query-data-item">
+        <h2>E-mail: </h2>                                                                    <!-- Query Data: Email -->
+        <h2 id="query-data-mail" class="query-data-item-detail">Kulith Vinwara</h2>
+      </div>
+
+      <div class="query-data-item">
+        <h2>Query Subject: </h2>                                                              <!-- Query Data: Subject -->
+        <h2 id="query-data-subject" class="query-data-item-detail">Kulith Vinwara</h2>
+      </div>
+
+      <div id="detail-para" class="query-data-item">
+        <h2>Query details: </h2>                                                              <!-- Query Data: Query Message -->
+        <p id="query-data-details" >Kulith Vinwara</p>
+      </div>
+
+      <div class=" query-data-item data-btn-container">
+        <button id="edit-query-btn" type="button">Edit</button>                           <!-- Edit Button -->
+        <button id="submit-query-btn" type="button">Submit</button>                       <!-- Submit Button -->
+      </div>
+    </div>  
+  </div>
+
+
+
+  <footer class="footer">
+
+    <div class="footer-right">     
+        <a href=""><img src="facebook.png" alt="fb" class="fb"></a>
+        <a href=""><img src="instagram.png" alt="insta" class="fb"></a>
+        <a href=""><img src="twitter.png" alt="twit" class="fb"></a>
+        <a href=""><img src="linkedin.png" alt="linked" class="fb"></a>
+    </div>
+
+    <div class="footer-left">
+
+      <p class="links">
+        <a class="link-1" href="../Main Page/Main.html">Home</a>
+
+        <a href="../Query Form/Query.html">Queries</a>
+
+        <a href="../Product/productHtml.html">Collections</a>
+
+        <a href="../New Arrivals page/newArrivals.html">New Arrivals</a>
+
+        <a href="../Quiz/index.html">Quiz</a>
+
+        <a href="../Additional Content/SportFacts.html">Sport Facts</a>
+
+        <a href="../Sitemap page/Sitemap.html">Sitemap</a>
+
+        <a href="../AboutUs/aboutus.html">About Us</a>
+      </p>
+
+      <p>SportoSense &copy; 2022</p>
+      <p><a href="./PageEditorKulith/pagedevolper.html" id="pagedev" style="text-decoration:none; color: white;">Page devoloper</a></p>
+      
+    </div>
+
+  </footer>
+  <script src="query_script.js"></script>
+</body>
+
+</html>

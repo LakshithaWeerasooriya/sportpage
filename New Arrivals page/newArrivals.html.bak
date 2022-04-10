@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+		<title>New Arrivals</title>
+		<meta charset="UTF-8">
+		
+		<!--Linking of CSS stylesheets-->
+		<link rel = "stylesheet" href = "Styles/newArrivalsStyle.css">
+		
+		<!--Javascript to thumbnail page functions-->
+		<script src = "newArrivals.js"></script>
+</head>
+
+<body>
+	<!--Navigation bar-->
+	<section class="uppersec">
+		<header>
+			<div>
+			  <img class="logo" src="newArrivalsImages/Logo.png"  alt="logo">
+			</div>
+			<nav>
+			  <ul>
+				<li><a href=" ">Home</a></li>
+				<li><a href=" ">Queries</a></li>
+				<li><a href=" ">Collections</a></li>
+				<li><a href=" ">New Arrivals</a></li>
+				<li><a href=" ">Quiz</a></li>
+				<li><a href=" ">Sport Facts</a></li>
+				<li><a href=" ">Sitemap</a></li>
+				<li><a href=" ">About Us</a></li>
+			  </ul>
+			</nav>
+		</header>
+
+	
+	<form>
+		<!--Pulldown menu-->
+		<div class = "uCustomize">
+		
+			<!--Page background color change-->
+			<label for = "backgroundColors">Select Preferred Background Color</label>
+			<select name = "backgroundColors" id = "backgroundColors" onchange = "changeBgColor(this.form)">
+				<option value = "default">Default</option>
+				<option value = "yellow">Yellow</option>
+				<option value = "red">Red</option>
+				<option value = "grey">Grey</option>
+			</select>
+			
+			<!--Page text color change-->
+			<label for = "textColors">Select Preferred Font Color</label>
+			<select name = "textColors" id = "textColors" onchange = "changeTxtColor(this.form)">
+				<option value = "default">Default</option>
+				<option value = "black">Black</option>
+				<option value = "green">Green</option>
+				<option value = "cyan">Cyan</option>
+			</select>
+		</div>
+	</form>
+	
+	<div id = "heading">
+		<h1>New Arrivals</h1>
+	</div>
+	
+	<!--Thumbnail images-->
+	<div class="thumbnailColomn">
+		
+		<div id = "Shirt" class = "thumbnail">
+			<img src = "newArrivalsImages/Shirt.png" alt = "Borussia Dortmund 2019/20 Away Shirt image" style="width:100%" >
+		</div>
+		
+		<div id = "Shoes" class = "thumbnail">
+			<img src = "newArrivalsImages/Shoes.png" alt = "Nike LeBron 19 image" style="width:100%">
+		</div>
+		
+		<div id = "Gloves" class = "thumbnail">
+			<img src = "newArrivalsImages/Gloves.png" alt = "MASURI E Line Pro Batting Gloves image" style="width:100%">
+		</div>
+		
+		<div id = "BadmintonRct" class = "thumbnail">
+			<img src = "newArrivalsImages/BadmintonRct.png" alt = "Yonex Nanoflare 800LT image" style="width:100%">
+		</div>
+		
+		<div id = "FootBall" class = "thumbnail">
+			<img src = "newArrivalsImages/FootBall.png" alt = "NCAA VIVIDO Match Soccer Ball image" style="width:100%">
+		</div>
+
+	</div>
+	
+	<!--Show enlarge image with product description-->
+	<div class="EnlargeImage">
+		
+		<!--First thumbnail with description is showed as default-->
+		<div id = "ImageHolder">
+			<img src = "newArrivalsImages/Shirt.png" alt = "Borussia Dortmund 2019/20 Away Shirt image" style="width:100%" id = "largeImage">
+		</div>
+		
+		<div id= "description">
+			<div id = "topic"> Borussia Dortmund 2019/20 Away Shirt </div>
+			<div class = "information" id = "info1">
+				<h3>Item Description</h3>
+				<span id = "info"> 
+				Borussia Dortmund install some style of steel for 
+				the new season as PUMA launch their 2019/20 away shirt under the "Men of Steel" 
+				slogan. The design is inspired by steel, which has characterized the city of 
+				Dortmund for over a hundred years since the mid-19th century. 
+				That's the history bit out of the way now, which is always a nice touch but 
+				ultimately an excuse to mix up aesthetic and create a stunning football shirt, 
+				and that's what we've got here. By way of an homage to steel, the shirt is 
+				dominated by shades of black, grey and silver. The broad vertical stripes have 
+				been kept black, with a black and grey graphic now visible between them. The 
+				logos of PUMA and Evonik and the two formstrips on the shoulders have been kept 
+				in striking silver, while the sole dash of yellow comes from the club emblem on 
+				the chest.
+				</span><br><br>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!--Javascript to thumbnail images selection-->
+	<script>
+		document.getElementById("Shirt").addEventListener("mouseover", displayShirt);
+		document.getElementById("Shoes").addEventListener("mouseover", displayShoes);
+		document.getElementById("Gloves").addEventListener("mouseover", displayGloves);
+		document.getElementById("BadmintonRct").addEventListener("mouseover", displayBadmintonRct);
+		document.getElementById("FootBall").addEventListener("mouseover", displayFootBall);
+	</script>
+	
+	<!--Footer-->
+	<footer class="footer">
+
+		<div class="footer-right">     
+			<a href=" "><img src="footerImages/facebook.png" alt="facebook" class="fb"></a>
+			<a href=" "><img src="footerImages/instagram.png" alt="instagram" class="fb"></a>
+			<a href=" "><img src="footerImages/twitter.png" alt="twitter" class="fb"></a>
+			<a href=" "><img src="footerImages/linkedin.png" alt="linkedin" class="fb"></a>
+		</div>
+
+		<div class="footer-left">
+
+		  <p class="links">
+			<a class="link-1" href=" ">Home</a>
+			<a href=" ">Queries</a>
+			<a href=" ">Collections</a>
+			<a href=" ">New Arrivals</a>
+			<a href=" ">Quiz</a>
+			<a href=" ">Sport Facts</a>
+			<a href=" ">Sitemap</a>
+			<a href=" ">About Us</a>
+		  </p>
+
+		  <p>SportoSense &copy; 2022</p>
+		  <p><a href="C:/Users/MALINDU%20MAWI/OneDrive/Documents/public_html/pagedeveloper.html" id="pagedev" style="text-decoration:none; color: white;">Page developer</a></p>
+		  
+		</div>
+
+	 </footer>
+	</section> 
+	
+</body>
+</html>	

@@ -1,0 +1,364 @@
+
+
+body{
+  margin:0;
+  padding: 0;
+  /*background-color:#808787;*/
+  background: linear-gradient(#5802f898, #024990), url(images/sports.png);
+  background-size: cover;
+
+  font-family: "open sans";
+  max-width: 100%;
+
+ 
+}
+
+
+header{
+  display:flex;
+  height: 70px;
+  justify-content: space-between;
+  color: white;
+  background: rgba(0,0,0,0.2);
+
+}
+
+.logo {
+  z-index: 1;
+  margin: 0px;
+  padding: 0%;
+  height: 150px; 
+  width: 150px;
+  
+}
+
+header div{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: MyWebFont;
+  margin: 0;
+}
+
+header div i{
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+
+header nav{
+  padding: 1px;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+nav li a{
+  padding: 2px;
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+  transition: all 250ms ease-in;
+}
+
+nav li a:hover{
+  background: #e3c940;
+  color: black;
+}
+ /*-------------------------------------------*/
+
+/*styling the header 1 on the web page*/	
+h1{
+	font-size: 4em;
+	text-align:center;
+	color:#FFFFFF;
+}
+/*styling the labels on the web page*/	  
+label{
+	float: left;
+	width: 25%;
+	margin-right: 0.5em;
+	padding-top: 0.2em;
+	text-align: right;
+	font-weight:bold;
+
+}
+/*styling the fieldsets on the web page*/	   
+fieldset{		  
+	font: 80%/1 sans-serif;
+	padding: 2em;
+	border-radius: 10px;
+				
+}
+/*styling the editor"s name on bottom of the web page*/	  
+.abc{
+	margin-top:0px;
+	padding-top:0px;
+	margin-left:125px;
+}
+
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+}
+/*styling the class on top of the web page*/
+.container{
+	/*width:50%;*/
+	height:1430px;
+	margin-left: 75px;
+	margin-top: 100px;
+	color: #FFFFFF;
+	
+
+}
+/*styling the class for the main heading of the web page*/	
+.intro{
+	text-align: center;
+	margin:5px 10pt 0pt 60pt;	
+}
+/*styling the horizontal line under the heading*/	
+hr{
+	margin: 20px -50px;
+}
+/*styling for personal details*/
+.details{
+	float: left;
+	width: 35%;
+	margin-left: 20px;
+	margin-top: 28px;
+	padding-right:10px;
+}
+/*styling for products*/
+#products{
+	margin-left: 25px;
+	margin-top: 20px;
+	margin-right: -200px;
+	height:750px;
+	width: 30%;
+
+
+	
+}
+
+#demo1{
+	margin-top: 20px;
+	margin-left: 125px;
+	color: #FFFFFF;
+}
+
+/*styling the place order button*/
+#myBtn{	
+	background-color: #E3C940; /* YELLOW */
+	border: none;
+    color: #FFFFFF;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+/*styling for input field elements*/
+.text{
+	width: 95%;
+	height: 35px;
+	padding-left: 15px;
+	border: none;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	margin-top: 5px;
+	background:#808787 ;
+}
+/*styling the text area*/
+textarea{
+	padding-left: 15px;
+	padding-top:10px;
+	border: none;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	margin-top: 5px;
+	background:#808787 ;
+	width:95%
+}
+
+/*styling to keep all products in a line*/
+.row{
+	float: none;
+	width:650px;
+	height: auto;
+	margin: 10px;
+	margin-top:10px;
+	padding:10px;
+	display:flex;
+	border:none;
+}
+/*styling for items div tags*/
+.items
+{
+	margin-bottom: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: right;
+	background-color: #E3C940;
+	width: 200px;
+	border-radius: 10px;
+
+}
+/*styling the product images*/
+.image{
+	width:200px;
+	height:200px;
+	display:flex;
+	border-radius: 10px;	
+
+}
+
+.image:hover{
+	transform: scale(1.25);
+	box-shadow: 0 0 20px #808787;
+}
+
+/*styling for product details*/
+.caption{
+	padding: 5px 9px 0px 9px;
+	text-align: center;
+
+}
+
+.description{
+	font-size:14px;
+}
+/*styling product name under images of products*/
+h4{
+	font-weight: bolder;
+}
+/*styling for input type number*/
+.quantity {
+	color:#000000;
+	margin-top: 5px;
+	width:37px;
+}
+/*styling for size selection*/
+select, option{
+   color:#000000;
+   margin-top: 5px;
+}
+/*styling for Add to Cart button*/
+.items button {
+border: none;
+outline: 0;
+padding: 6px;
+color:#FFFFFF;
+background-color:#E3C940;
+text-align: center;
+cursor: pointer;
+width: 100%;
+margin-left:0px;
+margin-bottom:0px;
+border-radius: 10px;
+}
+
+.items button:hover{
+opacity: 0.7;
+
+}
+
+legend{
+	font-size:20px;
+}
+
+
+/*footer*/
+
+
+.footer {
+  background-color:#007ff0;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px "open sans";
+  padding: 25px 50px;
+  margin-top: 100px;
+}
+
+.footer .footer-left p {
+  color: #ffffff;
+  font-family: "open sans";
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer p.links {
+  font-family: "open sans";
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer p.links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+
+.footer .links a:before {
+  content: "|";
+  font-size: 20px;
+  left: 0;
+  color: #ffffff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer .links .link-1:before {
+  content: none;
+}
+
+.footer .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #c9dde9;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.footer .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+
+.fb {
+  margin-top: 7px;
+}
+
+#pagedev:hover {
+  background-color: #e3c940;
+}
+
+
+

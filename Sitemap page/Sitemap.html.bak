@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>SportoSense Sitemap</title>
+	<meta charset="UTF-8">
+	
+	<!--Linking of CSS stylesheets-->
+	<link rel= "StyleSheet" href= "styles/SitemapStyle.css">
+
+</head>
+
+<body>
+
+	<div id = "heading">
+		<h1>Sitemap</h1>
+	</div>
+	
+    <svg id="SportoSenseSVG" width="1525" height="472">
+	
+		<!--Sitemap home page depiction-->
+        <g id="home">
+            <line x1="735" y1="220" x2="735" y2="190"></line>
+			<line x1="1325" y1="220" x2="165" y2="220"></line>
+            <rect x="665" y="130" width="150" rx="25" ry="25" height="60" />
+            <text x="735" y="165">Home</text>
+        </g>
+		
+		<!--Sitemap queries page depiction-->
+        <g id="queries">
+            <line x1="165" y1="220" x2="165" y2="260"></line>
+            <rect x="95" y="260" width="150" rx="25" ry="25" height="60" />
+            <text x="165" y="295">Queries</text>
+        </g>
+
+		<!--Sitemap Collections page depiction-->
+        <g id="collections">
+            <line x1="350" y1="220" x2="350" y2="260"></line>
+            <rect x="275" y="260" width="150" rx="25" ry="25" height="60" />
+            <text x="350" y="295">Collections</text>
+        </g>
+		
+		
+		<!--Sitemap new arrivals page depiction-->
+        <g id="newArrivals">
+            <line x1="540" y1="220" x2="540" y2="260"></line>
+            <rect x="470" y="260" width="150" rx="25" ry="25" height="60" />
+            <text x="545" y="295">New Arrivals</text>
+        </g>
+		
+		<!--Sitemap quiz page depiction-->
+        <g id="quiz">
+            <line x1="735" y1="220" x2="735" y2="260"></line>
+            <rect x="665" y="260" width="150" rx="25" ry="25" height="60" />
+            <text x="735" y="295">Quiz</text>
+        </g>
+		
+		<!--Sitemap sport facts page depiction-->
+        <g id="sportFacts">
+            <line x1="935" y1="220" x2="935" y2="260"></line>
+            <rect x="860" y="260" width="150" rx="25" ry="25" height="60" />
+            <text x="935" y="295">Sport Facts</text>
+        </g>
+		
+		<!--Sitemap sitemap page depiction-->
+        <g id="sitemap">
+            <line x1="1130" y1="220" x2="1130" y2="260"></line>
+            <rect x="1055" y="260" width="150" rx="25" ry="25" height="60" />
+            <text x="1130" y="295">Sitemap</text>
+        </g>
+		
+		<!--Sitemap about us page depiction-->
+        <g id="aboutUs">
+            <line x1="1325" y1="220" x2="1325" y2="260"></line>
+            <rect x="1250" y="260" width="150" rx="25" ry="25" height="60" />
+            <text x="1325" y="295">About Us</text>
+        </g>
+    </svg>
+	
+	<!--Linking to relevant pages using javascript-->
+	<script>
+		document.getElementById("home").addEventListener("click", function() {
+			document.location.href="#######";
+		});
+		
+		document.getElementById("queries").addEventListener("click", function() {
+			document.location.href="#######";
+		});
+		
+		document.getElementById("collections").addEventListener("click", function() {
+			document.location.href="#######";
+		});
+		
+		document.getElementById("newArrivals").addEventListener("click", function() {
+			document.location.href="#######";
+		});
+		
+		document.getElementById("quiz").addEventListener("click", function() {
+			document.location.href="#######";
+		});
+		
+		document.getElementById("sportFacts").addEventListener("click", function() {
+			document.location.href="#######";
+		});
+		
+		document.getElementById("sitemap").addEventListener("click", function() {
+			document.location.href="#######";
+		});
+		
+		document.getElementById("aboutUs").addEventListener("click", function() {
+			document.location.href="#######";
+		});
+		
+	</script>
+	
+	<!--Footer-->
+	<footer class="footer">
+
+		<div class="footer-right">
+			<a href=" "><img src="footerImages/facebook.png" alt="facebook" class="fb"></a>
+			<a href=" "><img src="footerImages/instagram.png" alt="instagram" class="fb"></a>
+			<a href=" "><img src="footerImages/twitter.png" alt="twitter" class="fb"></a>
+			<a href=" "><img src="footerImages/linkedin.png" alt="linkedin" class="fb"></a>
+		</div>
+
+		<div class="footer-left">
+
+		  <p class="links">
+			<a class="link-1" href=" ">Home</a>
+			<a href=" ">Queries</a>
+			<a href=" ">Collections</a>
+			<a href=" ">New Arrivals</a>
+			<a href=" ">Quiz</a>
+			<a href=" ">Sport Facts</a>
+			<a href=" ">Sitemap</a>
+			<a href=" ">About Us</a>
+		  </p>
+
+		  <p>SportoSense &copy; 2022</p>
+		  <p><a href="C:/Users/MALINDU%20MAWI/OneDrive/Documents/public_html/Page%20developer/pagedeveloper.html" id="pagedev" style="text-decoration:none; color: white;">Page developer</a></p>
+		  
+		</div>
+
+	</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz</title>
+  
+  <link rel="stylesheet" href="quiz.css">
+  <link href='https://fonts.googleapis.com/css?family=OpenSans' rel='stylesheet'>
+
+  <script src="js2.js"></script>
+
+
+</head>
+ <body id="bb">
+  <header>
+    <div>
+      <img class="logo" src="logo.png"  alt="logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Queries</a></li>
+        <li><a href="#">Collections</a></li>
+        <li><a href="#">New Arrivals</a></li>
+        <li><a href="index.html">Quiz</a></li>
+        <li><a href="#">Sports Facts</a></li>
+		<li><a href="#">Sitemap</a></li>
+        <li><a href="C:\Users\User\Documents\public_html\about us\aboutus.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bdy" style='visibility: visible;'>
+		<div class="myheader" id="myHeader">
+		<h1 id="main-hd">Quiz on Sports</h1>
+		<div id="clock">
+		<span id="seconds">60</span>
+		</div>
+	</div>
+	<div class="quz">
+	<p class="questions" id="question1">
+		Q1. How many FIFA World Cup has been played till 2018?<br>
+		<input type="radio" name="A1" value="wrong">14<br>
+		<input type="radio" name="A1" value="wrong">52<br>
+		<input type="radio" name="A1" value="wrong">29<br>
+		<input type="radio" name="A1" value="correct">21<br><br>
+	</div>
+	<div class="quz">
+	<p class="questions" id="question2">
+		Q2. Who is known as "The Baltimore Bullet"?<br>
+		<input type="radio" name="A2" value="wrong">Roger Federer<br>
+		<input type="radio" name="A2" value="wrong">Usain Bolt<br>
+		<input type="radio" name="A2" value="correct">Michael Phelps<br>
+		<input type="radio" name="A2" value="wrong">Michael Jordan<br><br>
+	</div>
+	<div class="quz">
+	<p class="questions" id="question3">
+		Q3. Which Sport is Performed by the Legend "Muhammad Ali"?<br>
+		<input type="radio" name="A3" value="wrong">Swiming<br>
+		<input type="radio" name="A3" value="correct">Boxing<br>
+		<input type="radio" name="A3" value="wrong">Shooting<br>
+		<input type="radio" name="A3" value="wrong">Weight Lifting<br><br>
+	</div>
+	<div class="quz">
+	<p class="questions" id="question4">
+		Q4. When was the first FIFA World Cup held?<br>
+		<input type="radio" name="A4" value="wrong">1934<br>
+		<input type="radio" name="A4" value="wrong">1918<br>
+		<input type="radio" name="A4" value="wrong">1925<br>
+		<input type="radio" name="A4" value="correct">1930<br><br>
+	</div>
+	<div class="quz">
+	<p class="questions" id="question5">
+		Q5. What is the National Sports of China?<br>
+		<input type="radio" name="A5" value="correct">Table Tennis<br>
+		<input type="radio" name="A5" value="wrong">Cricket<br>
+		<input type="radio" name="A5" value="wrong">Baseball<br>
+		<input type="radio" name="A5" value="wrong">Volleyball<br><br>
+	</div>
+	<div class="quz">
+	<p class="questions" id="question6">
+		Q6. Which Sport is Ronnie O’Sullivan famous for?<br>
+		<input type="radio" name="A6" value="wrong">Poker<br>
+		<input type="radio" name="A6" value="wrong">Tennis<br>
+		<input type="radio" name="A6" value="correct" >Snooker<br>
+		<input type="radio" name="A6" value="wrong">Chess<br><br>
+	</div>
+	<div class="quz">
+	<p class="questions" id="question7">
+		Q7. What is the Full Name of the Famous Football Player Ronaldo?<br>
+		<input type="radio" name="A7" value="wrong">Cristiano dos Ronaldo<br>
+		<input type="radio" name="A7" value="correct">Cristiano Ronaldo dos Santos Aveiro<br>
+		<input type="radio" name="A7" value="wrong">Cristiano Ronaldo Santos Aveiro<br>
+		<input type="radio" name="A7" value="wrong">Cristiano Santos Ronaldo<br><br>
+	</div>
+	<div class="quz">
+	<p class="questions" id="question8">
+		Q8. What is the current World Record of Men’s High Jump in the Olympic Event?<br>
+		<input type="radio" name="A8" value="correct">2.45 m<br>
+		<input type="radio" name="A8" value="wrong">2.75 m<br>
+		<input type="radio" name="A8" value="wrong">2.60 m<br>
+		<input type="radio" name="A8" value="wrong">2.42 m<br>
+	</div>
+	<div class="quz">
+	<p class="questions" id="question9">	
+		Q9. What is the Standard Size of Football Pitch?<br>
+		<input type="radio" name="A9" value="wrong">105 x 45 m<br>
+		<input type="radio" name="A9" value="wrong">200 x 150 m<br>
+		<input type="radio" name="A9" value="wrong">150 x 68 m<br>
+		<input type="radio" name="A9" value="correct">105 x 68 m<br><br>
+	</div>
+	<div class="quz">
+	<p class="questions" id="question10">
+		Q10. In which game the term is "Putting"used?<br>
+		<input type="radio" name="A10" value="correct">Golf<br>
+		<input type="radio" name="A10" value="wrong">Hockey<br>
+		<input type="radio" name="A10" value="wrong">Chess<br>
+		<input type="radio" name="A10" value="wrong">Billiards<br>
+	</div>
+	<div class="buttons">
+	<button onclick="viewresult()">Submit</button>
+	</div>
+  <br><br>
+  </div>
+  <div id="score" style="visibility: hidden;">
+ <p id="text" >
+ <button onclick="getRadioValue()">Get The Score</button>
+ </p>
+</div>
+
+ <footer class="footer">
+
+    <div class="footer-right">     
+        <a href="#"><img src="facebook.png" class="fb" alt="fb"></a>
+        <a href="#"><img src="instagram.png" class="fb" alt="in"></a>
+        <a href="#"><img src="twitter.png" class="fb" alt="tw"></a>
+        <a href="#"><img src="linkedin.png" class="fb" alt="ln"></a>
+    </div>
+
+    <div class="footer-left">
+
+      <p class="links">
+        <a class="link-1" href="#">Home</a>
+
+        <a href="#">Queries</a>
+
+        <a href="#">Collections</a>
+
+        <a href="#">New Arrivals</a>
+
+        <a href="#">Quiz</a>
+
+        <a href="#">Sports Facts</a>
+		 
+		<a href="#">Sitemap</a>
+
+        <a href="#">About Us</a>
+      </p>
+
+      <p>SportoSense &copy; 2022</p>
+      <p><a href="C:\Users\User\Documents\public_html\editor page\pagedevolper.html" id="pagedev" style="text-decoration:none; color: white;">Page devoloper</a></p>
+      
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>

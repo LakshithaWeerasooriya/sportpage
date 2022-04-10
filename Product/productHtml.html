@@ -1,0 +1,514 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset = "utf-8">
+	<title> Sport Equipments </title> 
+
+    <link rel="stylesheet" type="text/css" href="productStyle.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+
+  
+	<script src="productJs.js"> </script>
+	
+</head>
+
+<body>
+
+  <header>
+    <div>
+      <img class="logo" src="images/logo.png"  alt="logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="../Main Page/Main.html">Home</a></li>
+        <li><a href="../Query Form/Query.html">Queries</a></li>
+        <li><a href="../Product/productHtml.html">Collections</a></li>
+        <li><a href="../New Arrivals page/newArrivals.html">New Arrivals</a></li>
+        <li><a href="../Quiz/index.html">Quiz</a></li>
+        <li><a href="../Additional Content/SportFacts.html">Sport Facts</a></li>
+        <li><a href="../Sitemap page/Sitemap.html">Sitemap</a></li>
+        <li><a href="../AboutUs/aboutus.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+	<div class="heading">
+		<h1>Collections</h1>
+	</div>
+   
+    <div class="container">
+     
+                <!--personal details scetion 01 -->				
+                <div class="details">
+
+	               <fieldset>
+		               <legend>Your Details: </legend>
+		
+		                      <label for="name">Full Name:</label><br>
+		                      <input type="text" name="name" id="name"><br><br>				                      
+		
+		                      <label for="email">Email:</label><br>
+		                      <input type="email" name="email" id="email"><br><br>
+		
+		                      <label for="tel">Contact Number:</label>
+		                      <input type="tel" name="tel" id="tel"><br><br>
+		
+	                </fieldset>
+					
+					
+					
+				</div>
+	
+	            <!--Buying section-->  
+                <div id="products">
+				
+                    <!--Practice Equipments-->
+					
+					
+                    <fieldset class="row">
+                        <legend> Equipments</legend>
+						
+                        <!--item 1-->
+						
+                        <div class="items">
+                            <img class="image" src="images/tabletennispaddles.jpg" alt="Table Tennis Paddles">
+                            <div class="caption">
+                                <h4>Table Tennis Paddles</h4>
+                                <div>
+                                    <span class="price">19$</span><br>
+                                    Quantity &nbsp;<input type="number" value="0" min="0" max="10" class="quantity" id="product1"><br>
+                                </div>
+                            </div>
+                            <br><br><button onclick="addCart(document.getElementById('product1').value,'Table Tennis Paddles',19,document.getElementById('name').value,document.getElementById('email').value);" id="btn1">
+                                Add to Cart
+                            </button>
+                        </div>
+
+						
+                        <!--item 2-->
+						
+                        <div class="items">
+                            <img class="image" src="images/cricketbat.jpg" alt="Cricket Bat">
+                            <div class="caption">
+                                <h4>Cricket Bat</h4>
+                                <div>
+                                    <span class="price">30$</span><br>
+                                    Quantity &nbsp;<input type="number" value="0" min="0" max="10" class="quantity" id="product2"><br>
+                                </div>
+                            </div>
+                            <br><br><button onclick="addCart(document.getElementById('product2').value,'Cricket Bat',30,document.getElementById('name').value,document.getElementById('email').value);" id="btn2">
+                                Add to Cart
+                            </button>
+                        </div>  
+
+                        <!--item 3-->
+                        
+                        <div class="items">
+                            <img class="image" src="images/baseballbat.jpg" alt="Baseball Bat">
+                            <div class="caption">
+                                <h4>Baseball Bat</h4>
+                                <div>
+                                    <span class="price">32$</span><br>
+                                    Quantity &nbsp;<input type="number" value="0" min="0" max="10" class="quantity" id="product3"><br>
+                                </div>
+                            </div>
+                            <br><br><button onclick="addCart(document.getElementById('product3').value,'Baseball Bat',32,document.getElementById('name').value,document.getElementById('email').value);" id="btn3">
+                                Add to Cart
+                            </button>
+                        </div>
+
+                        <!--item 4-->
+                        
+                        <div class="items">
+                            <img class="image" src="images/hockeystick.jpg" alt="Hockey Stick">
+                            <div class="caption">
+                                <h4>Hockey Stick</h4>
+                                <div>
+                                    <span class="price">26$</span><br>
+                                    Quantity &nbsp;<input type="number" value="0" min="0" max="10" class="quantity" id="product4"><br>
+                                </div>
+                            </div>
+                            <br><br><button onclick="addCart(document.getElementById('product4').value,'Hockey Stick',26,document.getElementById('name').value,document.getElementById('email').value);" id="btn4">
+                                Add to Cart
+                            </button>
+                        </div>
+						
+                        
+						
+						<!--item 5--> 
+						
+                        <div class="items">
+                            <img class="image" src="images/badmintonracket.jpg" alt="Badminton Racket">
+                            <div class="caption">
+                                <h4>Badmminton Racket</h4>
+                                <div>
+                                  <span class="price">29$</span><br>
+                                    Quantity &nbsp;<input type="number" value="0" min="0" max="10" class="quantity" id="product5"><br>
+                                </div>
+                            </div>
+                             <br><br><button onclick="addCart(document.getElementById('product5').value,'Badminton Racket',29,document.getElementById('name').value,document.getElementById('email').value);" id="btn5">
+                                Add to Cart
+                            </button>
+                        </div>	
+
+                        <!--item 6--> 
+                        
+                        <div class="items">
+                            <img class="image" src="images/tennisracket.jpg" alt="Tennis Racket">
+                            <div class="caption">
+                                <h4>Tennis Racket</h4>
+                                <div>
+                                  <span class="price">31$</span><br>
+                                    Quantity &nbsp;<input type="number" value="0" min="0" max="10" class="quantity" id="product6"><br>
+                                </div>
+                            </div>
+                             <br><br><button onclick="addCart(document.getElementById('product6').value,'Tennis Racket',31,document.getElementById('name').value,document.getElementById('email').value);" id="btn6">
+                                Add to Cart
+                            </button>
+                        </div>				
+                    </fieldset>
+					
+                    <!-- Equipments catagary 2-->
+					
+					
+                    <fieldset class="row">
+                       
+						
+                        
+                        <!--item 7--> 
+                        
+                        <div class="items">
+                            <img class="image" src="images/womensswimwear.jpg" alt="Womens Swimwear">
+                            <div class="caption">
+                                <h4>Womens Swimwear</h4>
+                                <div>
+                                    <span class="price">18$</span><br>
+                                Quantity &nbsp;<input type="number" value="0" min="0" max="10" class="quantity" id="product7"><br>
+                                Size &nbsp; &nbsp; &nbsp; &nbsp;
+                                 <select id="clothing1" >
+                                    <option value="S" selected>S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                    <option value="XXL">2XL</option>
+                                  </select>
+                                </div>
+                            </div>
+                             <button onclick="addCart(document.getElementById('product7').value,'Womens Swimwear',18,document.getElementById('name').value,document.getElementById('email').value);" id="btn7">
+                                Add to Cart
+                            </button>
+                        </div>
+						
+                        <!--item 8-->
+						
+                        <div class="items">
+                            <img class="image" src="images/mensswimwear.webp" alt="Mens Swimwear">
+                            <div class="caption">
+                                <h4>Mens Swimwear</h4>
+                                <div>
+                                    <span class="price"> 15$</span><br>
+                                Quantity &nbsp;<input type="number" value="0" min="0" max="10" class="quantity" id="product8"><br>
+                                Size &nbsp; &nbsp; &nbsp; &nbsp;
+                                 <select id="clothing2" >
+                                    <option value="S" selected>S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                    <option value="XXL">2XL</option>
+                                 </select>
+                                </div>
+                            </div>
+                            <button onclick="addCart(document.getElementById('product8').value,'Mens Swimwear',15,document.getElementById('name').value,document.getElementById('email').value);" id="btn8">
+                                Add to Cart
+								
+                            </button>
+                        </div>
+
+                        <!--item 9-->
+                        
+                        <div class="items">
+                            <img class="image" src="images/swimsuitgirls.jpg" alt="Swim Suit Girls">
+                            <div class="caption">
+                                <h4>Swim Suit Girls</h4>
+                                <div>
+                                    <span class="price"> 12$</span><br>
+                                Quantity &nbsp;<input type="number" value="0" min="0" max="10" class="quantity" id="product9"><br>
+                                Size &nbsp; &nbsp; &nbsp; &nbsp;
+                                 <select id="clothing2" >
+                                    <option value="S" selected>S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                    <option value="XXL">2XL</option>
+                                 </select>
+                                </div>
+                            </div>
+                            <button onclick="addCart(document.getElementById('product9').value,'Swim Suit Girls',12,document.getElementById('name').value,document.getElementById('email').value);" id="btn9">
+                                Add to Cart
+                                
+                            </button>
+                        </div>
+
+                        <!--item 10-->
+                        
+                        <div class="items">
+                            <img class="image" src="images/swimsuitboys.webp" alt="Swim Suit Boys">
+                            <div class="caption">
+                                <h4>Swim Suit Boys</h4>
+                                <div>
+                                    <span class="price"> 14$</span><br>
+                                Quantity &nbsp;<input type="number" value="0" min="0" max="10" class="quantity" id="product10"><br>
+                                Size &nbsp; &nbsp; &nbsp; &nbsp;
+                                 <select id="clothing2" >
+                                    <option value="S" selected>S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                    <option value="XXL">2XL</option>
+                                 </select>
+                                </div>
+                            </div>
+                            <button onclick="addCart(document.getElementById('product10').value,'Swim Suit Boys',14,document.getElementById('name').value,document.getElementById('email').value);" id="btn10">
+                                Add to Cart
+                                
+                            </button>
+                        </div>
+						
+                        <!--item 11-->
+                        
+                        <div class="items">
+                            <img class="image" src="images/womensgymwear.jpg" alt="Womens Gym Wear">
+                            <div class="caption">
+                                <h4>Womens Gym Wear</h4>
+                                <div>
+                                    <span class="price"> 20$</span><br>
+                                Quantity &nbsp;<input type="number" value="0" min="0" max="10" class="quantity" id="product11"><br>
+                                Size &nbsp; &nbsp; &nbsp; &nbsp;
+                                 <select id="clothing2" >
+                                    <option value="S" selected>S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                    <option value="XXL">2XL</option>
+                                 </select>
+                                </div>
+                            </div>
+                            <button onclick="addCart(document.getElementById('product11').value,'Womens Gym Wear',20,document.getElementById('name').value,document.getElementById('email').value);" id="btn11">
+                                Add to Cart
+                                
+                            </button>
+                        </div>
+
+                        <!--item 12-->
+                        
+                        <div class="items">
+                            <img class="image" src="images/mensgymwear.jpg" alt="Mens Gym Wear">
+                            <div class="caption">
+                                <h4>Mens Gym Wear</h4>
+                                <div>
+                                    <span class="price"> 22$</span><br>
+                                Quantity &nbsp;<input type="number" value="0" min="0" max="10" class="quantity" id="product12"><br>
+                                Size &nbsp; &nbsp; &nbsp; &nbsp;
+                                 <select id="clothing2" >
+                                    <option value="S" selected>S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                    <option value="XXL">2XL</option>
+                                 </select>
+                                </div>
+                            </div>
+                            <button onclick="addCart(document.getElementById('product12').value,'Mens Gym Wear',22,document.getElementById('name').value,document.getElementById('email').value);" id="btn12">
+                                Add to Cart
+                                
+                            </button>
+                        </div>
+                        
+						
+						
+						
+					</fieldset>
+						
+						<!-- Equipments catagary 3-->
+						
+						
+                    <fieldset class="row">
+                        
+						
+                        
+						
+                        <!--item 13-->
+						
+                        <div class="items">
+                            <img class="image" src="images/football.jpg" alt="Foot Ball">
+                            <div class="caption">
+                                <h4 class="item">Foot Ball</h4>
+                                <div>
+                                    <span class="price">17$</span><br>
+                                    Quantity &nbsp;<input type="number" value="0" min="0" max="10" class="quantity" id="product13"><br>
+                                </div>
+                            </div>
+                            <br><br><button onclick="addCart(document.getElementById('product13').value,'Foot Ball ',17,document.getElementById('name').value,document.getElementById('email').value);" id="btn13">
+                                Add to Cart
+								
+                            </button>
+                        </div>
+						
+                        <!--item 14-->
+						
+                        <div class="items">
+                            <img class="image" src="images/basketball.jpg" alt="Basket Ball">
+                            <div class="caption">
+                                <h4 class="item">Basket Ball</h4>
+                                <div>
+                                    <span class="price">19$</span><br>
+                                    Quantity &nbsp;<input type="number" value="0" min="0" max="10" class="quantity" id="product14"><br>
+                                </div>
+                            </div>
+                            <br><br><button onclick="addCart(document.getElementById('product14').value,'Basket Ball ',19,document.getElementById('name').value,document.getElementById('email').value);" id="btn14">
+                                Add to Cart
+								
+                            </button>
+                        </div>
+						
+						<!--item 15-->
+						
+                        <div class="items">
+                            <img class="image" src="images/rugbyball.jpg" alt="Rugby Ball">
+                            <div class="caption">
+                                <h4 class="item">Rugby Ball</h4>
+                                <div>
+                                    <span class="price">18$</span><br>
+                                    Quantity &nbsp;<input type="number" value="0" min="0" max="10" class="quantity" id="product15"><br>
+                                </div>
+                            </div>
+                              <br><br><button onclick="addCart(document.getElementById('product15').value,'Rugby Ball',18,document.getElementById('name').value,document.getElementById('email').value);" id="btn15">
+                                Add to Cart
+								
+                            </button>
+                        </div>
+
+
+                        <!--item 16-->
+                        
+                        <div class="items">
+                            <img class="image" src="images/handfootball.jpeg" alt="Hand Foot Ball">
+                            <div class="caption">
+                                <h4 class="item">Hand Foot Ball</h4>
+                                <div>
+                                    <span class="price">16$</span><br>
+                                    Quantity &nbsp;<input type="number" value="0" min="0" max="10" class="quantity" id="product16"><br>
+                                </div>
+                            </div>
+                              <br><br><button onclick="addCart(document.getElementById('product16').value,'Hand Foot Ball',16,document.getElementById('name').value,document.getElementById('email').value);" id="btn16">
+                                Add to Cart
+                                
+                            </button>
+                        </div>
+
+
+                        <!--item 17-->
+                        
+                        <div class="items">
+                            <img class="image" src="images/sportshoes.png" alt="Sport Shoes">
+                            <div class="caption">
+                                <h4 class="item">Sport Shoes</h4>
+                                <div>
+                                    <span class="price">21$</span><br>
+                                    Quantity &nbsp;<input type="number" value="0" min="0" max="10" class="quantity" id="product17"><br>
+                                </div>
+                            </div>
+                              <br><br><button onclick="addCart(document.getElementById('product17').value,'Sport Shoes',21,document.getElementById('name').value,document.getElementById('email').value);" id="btn17">
+                                Add to Cart
+                                
+                            </button>
+                        </div>
+
+
+                        <!--item 18-->
+                        
+                        <div class="items">
+                            <img class="image" src="images/boxinggloves.webp" alt="Boxing Gloves">
+                            <div class="caption">
+                                <h4 class="item">Boxing Gloves</h4>
+                                <div>
+                                    <span class="price">27$</span><br>
+                                    Quantity &nbsp;<input type="number" value="0" min="0" max="10" class="quantity" id="product18"><br>
+                                </div>
+                            </div>
+                              <br><br><button onclick="addCart(document.getElementById('product18').value,'Boxing Gloves',27,document.getElementById('name').value,document.getElementById('email').value);" id="btn18">
+                                Add to Cart
+                                
+                            </button>
+                        </div>
+
+
+
+                    </fieldset>
+
+                
+
+                    </div>    
+    
+    </div>                 
+
+
+	   
+                    
+	                   <button class="abc" onclick="readCart()" id ="myBtn">Place Order</button>       
+		                      <!--<input type="submit" name="button" value="Place Order" >-->
+                    
+
+               
+
+
+		<!--</form>-->			
+		
+		<div id ='demo1'>
+
+</div>
+
+
+
+  <footer class="footer">
+
+    <div class="footer-right">     
+        <a href="#"><img src="images/facebook.png" class="fb"></a>
+        <a href="#"><img src="images/instagram.png" class="fb"></a>
+        <a href="#"><img src="images/twitter.png" class="fb"></a>
+        <a href="#"><img src="images/linkedin.png" class="fb"></a>
+    </div>
+
+    <div class="footer-left">
+
+      <p class="links">
+        <a class="link-1" href="../Main Page/Main.html">Home</a>
+
+        <a href="../Query Form/Query.html">Queries</a>
+
+        <a href="../Product/productHtml.html">Collections</a>
+
+        <a href="../New Arrivals page/newArrivals.html">New Arrivals</a>
+
+        <a href="../Quiz/index.html">Quiz</a>
+
+        <a href="../Additional Content/SportFacts.html">Sport Facts</a>
+
+        <a href="../Sitemap page/Sitemap.html">Sitemap</a>
+
+        <a href="../AboutUs/aboutus.html">About Us</a>
+      </p>
+
+      <p>SportoSense &copy; 2022</p>
+      <p><a href="./pageDeveloper/pagedeveloper.html" style="text-decoration:none; color: white;">Page devoloper</a></p>
+      
+    </div>
+
+  </footer>
+ 
+
+</body>
+
+</html>

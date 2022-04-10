@@ -1,0 +1,330 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin:0;
+  padding: 0;
+  background-color: #007ff0;  /* Main Color of the website*/
+  font-family: "open sans";
+ 
+}
+
+
+
+/* ------------------------ NAVBAR ----------------*/
+
+
+header{
+  display:flex;
+  height: 70px;
+  justify-content: space-between;
+  color: white;
+  background: rgba(0,0,0,0.2) 
+
+}
+
+.logo {
+  z-index: 1; /* Logo appears top layer of the navigation bar*/
+  margin: 0px;
+  padding: 0%;
+  height: 150px; 
+  width: 150p x;
+  
+}
+
+header div{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+header nav{
+  padding: 1px;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+nav li a{
+  padding: 2px;
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+  transition: all 250ms ease-in;
+}
+ 
+nav li a:hover{             /* Hover Effect to navigation links */
+  background: #e3c940; 
+  color: black;
+}
+
+
+
+
+.titles{
+  color: white;
+  text-align: center;
+  width: 50vw;
+  margin: auto;
+  padding: 0;
+}
+
+.titles h1{
+  font-family: Pacifico;
+  font-size: 5rem;
+  text-shadow: 1px 1px 0 black;
+
+}
+
+.titles p{
+  letter-spacing: 2px;
+  font-size:x-large;
+  text-shadow: 1px 1px 0 black;
+}
+
+.mainsec {
+  margin:0;
+  padding: 0;
+  background: linear-gradient(#0080f018, #007ff0), url(soccer-g290e9861e_1920.jpg) no-repeat;   /* Linear Gradient added to the baclground image of main section */
+  background-size: cover;
+
+  font-family: "open sans";
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.secondsec {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  background: linear-gradient(to top, #007ff0, transparent);  /* Linear Gradient added to the second section */
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container-boxes{
+  margin: 0 auto;
+  padding: 0;
+  display:flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  max-width: 80vw;
+}
+
+.box{
+  background: rgba(255,255,255,.5);
+  margin: 20px;
+  width: 260px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 350px;
+  max-height: 180px;
+  min-height: 180px;
+  transition: all 150ms ease-out;     /* Transition added to the boxes*/
+}
+
+.box:hover{
+  background: rgba(255,255,255,.7);
+  transform: translateY(-20%);          /* Transforms box along Y axis*/
+}
+
+.box a{
+  text-decoration: none;
+  color: black;
+}
+
+.icon{
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.text1 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-left: 60px;
+
+}
+
+.text2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.text3 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-left: 60px;
+
+}
+
+.text4 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-left: 60px;
+
+}
+  
+.image1 {
+  height: 120px;
+  width: 120px;
+  margin-left: 60px;
+  
+}
+
+.image2 {
+  height: 120px;
+  width: 120px;
+  margin-left: 60px;
+  
+}
+
+.image3 {
+  height: 120px;
+  width: 120px;
+  margin-left: 60px;
+  
+}
+
+
+.thirdsec {
+
+  margin:0;
+  padding: 0;
+  background: linear-gradient(#007ff0, #0080ff42), url(tennis-g2aa7bfe44_1920.jpg) no-repeat;   /* Linear Gradient added to the third section */
+  background-size: cover;
+  color: black;   
+  font-family: "open sans";
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.brands {
+  text-align: center;
+  font-size: 3.5rem;
+  color: white;
+  font-family: 'Open Sans';
+}
+
+.gallery {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+
+.galleryimg1 {
+  height: 270px;
+  width: 405px;
+}
+
+.galleryimg1:hover
+{
+  box-shadow: 0 0 10px #ccc;         /* Box shadow added with hover*/
+}
+
+
+
+
+.footer {
+  background-color:#007ff0;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px "open sans";
+  padding: 25px 50px;
+}
+
+.footer .footer-left p {
+  color: #ffffff;
+  font-family: "open sans";
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer p.links {
+  font-family: "open sans";
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer p.links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+
+.footer .links a:before {
+  content: "|";
+  font-size: 20px;
+  left: 0;
+  color: #ffffff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer .links .link-1:before {
+  content: none;
+}
+
+.footer .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #c9dde9;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.footer .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}    /* Scale transform added with hover*/
+
+
+.fb {
+  margin-top: 7px;
+}
+
+#pagedev:hover {
+  background-color: #e3c940;
+}

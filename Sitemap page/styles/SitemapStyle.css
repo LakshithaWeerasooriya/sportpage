@@ -1,0 +1,126 @@
+/*---------Body styling---------*/
+
+Body {
+	font-family: "open sans";
+	text-align: center;
+	margin-top: 0px;
+	padding: 0;
+	background: linear-gradient(#0080f018, #024990), url(backgroundImage/soccer-g290e9861e_1920.jpg) no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	text-shadow: 1px 2px 0 black;
+	font-size: 4em;
+	margin-bottom: -20px;
+}
+
+rect {
+	fill: #E3C940;
+	stroke: black;
+	stroke-width: 2px;
+}
+
+line{
+	stroke: black;
+	stroke-linecap: round;
+	stroke-width: 3px;
+}
+
+text{
+	fill: black;
+	text-anchor: middle;
+	font-weight: bold;
+	font-size: 19px;
+}
+
+#SportoSenseSVG g:hover rect {
+	fill: #f5952e;
+	cursor: pointer;
+	transform: translateY(-0.5%);
+}
+
+/*---------Footer styling---------*/
+
+.footer {
+	background-color:#007fff;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px "open sans";
+	padding: 25px 50px;
+	margin: auto;
+}
+
+.footer .footer-left p {
+    color: #ffffff;
+    font-family: "open sans";
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer p.links {
+    font-family: "open sans";
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+    transition: ease .25s;
+}
+
+.footer p.links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+}
+
+
+.footer .links a:before {
+    content: "|";
+    font-size: 20px;
+    left: 0;
+    color: #ffffff;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer .links .link-1:before {
+    content: none;
+}
+
+.footer .footer-right {
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+}
+
+.footer .footer-right a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #c9dde9;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 3px;
+    transition:all .25s;
+}
+
+.footer .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+
+.fb {
+    margin-top: 7px;
+}
+
+#pagedev:hover {
+    background-color: #e3c940;
+}
